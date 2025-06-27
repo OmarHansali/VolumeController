@@ -1,0 +1,6 @@
+opencv-python
+numpy
+mediapipe
+pycaw
+comtypes
+keyboard
