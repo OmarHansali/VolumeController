@@ -34,8 +34,7 @@ volume-controller
 
 1. **Clone the repository:**
    ```
-   git clone <repository-url>
-   cd volume-controller
+   git clone https://github.com/OmarHansali/VolumeController
    ```
 
 2. **Install dependencies:**
@@ -55,10 +54,6 @@ volume-controller
 - **Windows only:** Volume and media control uses Windows APIs (`pycaw`, `keyboard`). For Android, significant adaptation is needed (see below).
 - **No UI:** There is no window or display; all actions are performed in the background.
 - **Webcam required:** Ensure your webcam is connected and accessible.
-
-## Android Support
-
-- Direct Android support is not included. To run on Android, you would need to port the logic using [Kivy](https://kivy.org/) or [Chaquopy](https://chaquo.com/chaquopy/) and adapt camera and system control APIs for Android.
 
 ## Troubleshooting
 
